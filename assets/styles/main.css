@@ -195,15 +195,56 @@ header .container nav ul li:not(:last-child) {
   right: 50px;
   border-radius: 10px;
   font-size: 20px;
-  
 }
-.icon-arrow-right{
-display: inline-block;
-position: absolute;
+.icon-arrow-right {
+  display: inline-block;
+  position: absolute;
 }
-.Readmore{
+.Readmore {
   display: inline-block;
 }
-.get-a-demo{
+.get-a-demo {
   margin: auto;
+}
+footer .container {
+  padding: 30px;
+  color: var(--white);
+  background-color: var(--bg);
+  width: 100%;
+}
+footer .container .nexcent {
+  width: 300px;
+}
+footer .container .nexcent .logo {
+  background-color: var(--title-color);
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 7px;
+}
+footer .container .nexcent .name-wepsite {
+  color: var(--white);
+  font-size: var(--h2-size);
+}
+
+footer .container .media {
+  padding: 7px;
+  margin-right: 5px;
+  border-radius: 20px;
+  width: 30px;
+  height: 28px;
+  background-color: var(--title-color);
+}
+footer .container h3{
+  padding-bottom: 15px;
+}
+footer .container ul li {
+  padding-top: 10px;
+}
+footer .container ul li a{
+  color: var(--white);
+}
+footer .container input[type="email"]{
+  height: 35px;
+  padding: 10px;
+  outline: none;
 }
